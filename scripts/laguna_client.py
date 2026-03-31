@@ -59,7 +59,7 @@ class LagunaClient:
 
         headers = {
             "Content-Type": "application/json",
-            "Accept": "application/json",
+            "Accept": "application/json, text/event-stream",
             "User-Agent": "OpenClaw-Laguna/1.0",
         }
 
